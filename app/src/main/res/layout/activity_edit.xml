@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".EditActivity"
+    android:background="#4E342E">
+
+    <TextView
+        android:id="@+id/txt_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/poppins_bold"
+        android:textColor="@color/white"
+        android:layout_marginTop="30dp"
+        android:text="EDIT MENU"/>
+
+    <TextView
+        android:id="@+id/txt_titleNama"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/poppins_medium"
+        android:textColor="@color/white"
+        android:text="Nama"/>
+
+    <EditText
+        android:id="@+id/txt_nama"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan Nama"
+        android:textSize="15dp"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:background="@color/white"
+        android:fontFamily="@font/poppins_medium"
+        android:padding="10dp" />
+
+    <TextView
+        android:id="@+id/txt_titleDeskripsi"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/poppins_medium"
+        android:textColor="@color/white"
+        android:layout_marginTop="16dp"
+        android:text="Deskripsi"/>
+
+    <EditText
+        android:id="@+id/txt_deskripsi"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan Deskripsi"
+        android:textSize="15dp"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:background="@color/white"
+        android:padding="10dp"
+        android:fontFamily="@font/poppins_medium" />
+
+    <TextView
+        android:id="@+id/txt_titleHarga"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/poppins_medium"
+        android:textColor="@color/white"
+        android:layout_marginTop="16dp"
+        android:text="Harga"/>
+
+    <EditText
+        android:id="@+id/txt_harga"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan Harga"
+        android:textSize="15dp"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:background="@color/white"
+        android:padding="10dp"
+        android:inputType="number"
+        android:fontFamily="@font/poppins_medium" />
+
+    <Button
+        android:id="@+id/btn_kembali"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Kembali"
+        android:textSize="15sp"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/poppins_medium"
+        android:textColor="#4E342E"
+        android:layout_gravity="center"
+        android:layout_marginTop="290dp"/>
+
+    <Button
+        android:id="@+id/btn_simpan"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Simpan"
+        android:textSize="15sp"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/poppins_medium"
+        android:textColor="#4E342E"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"/>
+
+</LinearLayout>

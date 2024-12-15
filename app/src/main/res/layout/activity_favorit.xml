@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FavoritActivity"
+    android:background="#4E342E">
+
+    <TextView
+        android:id="@+id/txt_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/poppins_bold"
+        android:textColor="@color/white"
+        android:layout_marginTop="30dp"
+        android:text="MENU FAVORITKU"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_menu"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="16dp"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
+
+    <Button
+        android:id="@+id/btn_kembali"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Kembali"
+        android:textSize="15dp"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/poppins_medium"
+        android:textColor="#4E342E"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="17dp"/>
+
+</LinearLayout>

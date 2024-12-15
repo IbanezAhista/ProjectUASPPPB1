@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".BerandaActivity"
+    android:background="#4E342E">
+
+    <TextView
+        android:id="@+id/txt_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/poppins_bold"
+        android:textColor="@color/white"
+        android:layout_marginTop="30dp"
+        android:text="BERRYBITES BAKERY"/>
+
+    <TextView
+        android:id="@+id/txt_deskripsiA"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/poppins_medium"
+        android:textColor="@color/white"
+        android:layout_marginTop="30dp"
+        android:textAlignment="center"
+        android:text="BerryBites Bakery adalah toko roti yang mengusung konsep manis dan segar, menawarkan berbagai pilihan Tiny Treats yang berkualitas."/>
+
+    <Button
+        android:id="@+id/btn_lihatKatalog"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Lihat Katalog"
+        android:textSize="15dp"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/poppins_medium"
+        android:textColor="#4E342E"
+        android:layout_marginTop="150dp"/>
+
+    <Button
+        android:id="@+id/btn_favoritSaya"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Favorit Saya"
+        android:textSize="15dp"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/poppins_medium"
+        android:textColor="#4E342E"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/btn_profile"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Profile"
+        android:textSize="15dp"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/poppins_medium"
+        android:textColor="#4E342E"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/txt_deskripsiB"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/poppins_medium"
+        android:textColor="@color/white"
+        android:layout_marginTop="150dp"
+        android:textAlignment="center"
+        android:text="© 2024 BerryBites Bakery. Semua Hak Dilindungi. Temukan kami di media sosial untuk update menu terbaru!"/>
+
+</LinearLayout>
